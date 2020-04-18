@@ -240,7 +240,6 @@ input[type=submit] {
   #main-container{
     width: auto;
   }
-
 }
 @media screen and (max-width:640px){
   .container{
@@ -258,14 +257,13 @@ input[type=submit] {
   .auth-image {
     width: 100%;
   }
-
   #masthead{
     position: static;
 
   }
-
-  .logo, .nav{
-
+  #logo, nav{
+    width: 100%;
+    text-align: center;
+    display: block;
   }
-
 }
